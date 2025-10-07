@@ -1,4 +1,5 @@
 # decodegbm_app.py
+    pip install matplotlib
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -290,4 +291,5 @@ if uploaded_image and uploaded_excel:
     st.download_button("📥 Download PDF Report", data=pdf_bytes, file_name=f"{patient_id}_DecodeGBM_Report.pdf", mime="application/pdf")
 
 else:
+
     st.info("Upload both MRI/patch image and multi-omics Excel to run DecodeGBM demo.")
