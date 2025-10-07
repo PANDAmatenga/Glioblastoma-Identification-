@@ -1,5 +1,5 @@
 # decodegbm_app.py
-pip install matplotlib
+!pip install matplotlib
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -293,4 +293,5 @@ if uploaded_image and uploaded_excel:
 else:
 
     st.info("Upload both MRI/patch image and multi-omics Excel to run DecodeGBM demo.")
+
 
