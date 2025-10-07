@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import io, random, textwrap, datetime
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 import cv2
 from reportlab.pdfgen import canvas
@@ -293,6 +293,7 @@ if uploaded_image and uploaded_excel:
 else:
 
     st.info("Upload both MRI/patch image and multi-omics Excel to run DecodeGBM demo.")
+
 
 
 
